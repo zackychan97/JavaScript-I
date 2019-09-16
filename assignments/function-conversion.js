@@ -28,3 +28,50 @@
 //   return num * 3;
 // });
 // console.log(triple);
+
+
+
+
+// Function 1
+
+let myFunction = () => {
+console.log("Function was invoked!");
+}; 
+myFunction();
+
+
+// Function 2
+
+let anotherFunction = (param) => {
+   return param;
+};
+console.log(anotherFunction("Example"));
+
+// Function 3
+
+let add = (param1, param2) => {
+  return param1 + param2;
+};
+console.log(add(1,2));
+
+// Function 4
+
+let subtract = (param1, param2) => {
+  return param1 - param2;
+};
+console.log(subtract(1, 2))
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
