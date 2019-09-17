@@ -33,7 +33,7 @@ const intern2 = {
   email: 'kdiben1@tinypic.com',
   gender: 'M',
   speak: function(){
-    return 'Hello my name is ${this.name}'
+    return `Hello, my name is ${this.name}`
   }
 }
 //console.log(intern2);
@@ -83,7 +83,7 @@ const intern5 = {
 
 // Antonietta's Gender
 
-console.log(intern2.name)
+console.log(intern1.name)
 
 console.log(intern2.id)
 
@@ -101,7 +101,9 @@ console.log(intern5.gender)
 // Give Kennan the ability to say "Hello, my name is Kennan!" Use the console.log provided as a hint.
 
 
-console.log(intern2.speak());
+console.log(intern2.speak())
+
+
 
 // Antonietta loves math, give her the ability to multiply two numbers together and return the product. Use the console.log provided as a hint.
 //console.log(antonietta.multiplyNums(3,4));

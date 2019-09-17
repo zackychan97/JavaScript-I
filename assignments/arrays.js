@@ -102,8 +102,7 @@ let carYears = [];
 console.log();
 
 for (let i = 0; i < inventory.length; i++) {
-  const carYear = inventory[i].car_year;
-  carYears.push(carYear);
+  carYears.push(inventory[i].car_year);
 }
 
 console.log(carYears);
